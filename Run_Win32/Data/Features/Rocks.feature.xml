@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Features>
+    <Feature name="Small Grey Rock" type="small rock" >
+        <VertexInfo>
+            <Vertex pos="0.1,0.01,0.1" uv="0.0,0.0" color="0x777777FF" />
+            <Vertex pos="0.4,0.01,0.1" uv="0.0,0.0" color="0x777777FF" />
+            <Vertex pos="0.4,0.01,0.4" uv="0.0,0.0" color="0x777777FF" />
+            <Vertex pos="0.1,0.01,0.4" uv="0.0,0.0" color="0x777777FF" />
+            <Vertex pos="0.25,0.3,0.2" uv="0.0,0.0" color="0x777777FF" />
+            <Vertex pos="0.3,0.4,0.4" uv="0.0,0.0" color="0x777777FF" />
+        </VertexInfo>
+        <IndexInfo>
+            <Index val="0" />
+            <Index val="1" />
+            <Index val="2" />
+
+            <Index val="2" />
+            <Index val="3" />
+            <Index val="0" />
+
+            <Index val="2" />
+            <Index val="5" />
+            <Index val="3" />
+
+            <Index val="1" />
+            <Index val="4" />
+            <Index val="2" />
+
+            <Index val="4" />
+            <Index val="5" />
+            <Index val="2" />
+
+            <Index val="0" />
+            <Index val="4" />
+            <Index val="1" />
+
+            <Index val="3" />
+            <Index val="5" />
+            <Index val="0" />
+
+            <Index val="5" />
+            <Index val="4" />
+            <Index val="0" />
+        </IndexInfo>
+    </Feature>
+</Features>

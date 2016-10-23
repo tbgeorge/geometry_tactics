@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Features>
+    <Feature name="Basic Tree" type="tree" >
+        <VertexInfo>
+            <!-- Trunk verts -->
+            <Vertex pos="0.3,0.01,0.3" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.7,0.01,0.3" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.7,0.01,0.7" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.3,0.01,0.7" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.4,0.75,0.4" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.6,0.75,0.4" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.6,0.75,0.6" uv="0.0,0.0" color="0x753E06FF" />
+            <Vertex pos="0.4,0.75,0.6" uv="0.0,0.0" color="0x753E06FF" />
+            
+            <!-- Top verts -->
+            <Vertex pos="0.15,1.25,0.15" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.5, 1.25,0.0" uv="0.0,0.0"   color="0x067506FF" />
+            <Vertex pos="0.85,1.25,0.15" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="1.0, 1.25,0.5" uv="0.0,0.0"   color="0x067506FF" />
+            <Vertex pos="0.85,1.25,0.85" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.5, 1.25,1.0" uv="0.0,0.0"   color="0x067506FF" />
+            <Vertex pos="0.15,1.25,0.85" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.0, 1.25,0.5" uv="0.0,0.0"   color="0x067506FF" />
+
+
+            <Vertex pos="0.2,1.5,0.2" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.8,1.5,0.2" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.8,1.5,0.8" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.2,1.5,0.8" uv="0.0,0.0" color="0x067506FF" />
+            <Vertex pos="0.5,1.75,0.5" uv="0.0,0.0" color="0x067506FF" />
+
+        </VertexInfo>
+        <IndexInfo>
+            <!-- Trunk indexes -->
+            <Index val="0" />
+            <Index val="1" />
+            <Index val="2" />
+
+            <Index val="2" />
+            <Index val="3" />
+            <Index val="0" />
+            
+            <Index val="3" />
+            <Index val="2" />
+            <Index val="6" />
+
+            <Index val="6" />
+            <Index val="7" />
+            <Index val="3" />
+
+            <Index val="2" />
+            <Index val="1" />
+            <Index val="5" />
+
+            <Index val="5" />
+            <Index val="6" />
+            <Index val="2" />
+
+            <Index val="1" />
+            <Index val="0" />
+            <Index val="4" />
+
+            <Index val="4" />
+            <Index val="5" />
+            <Index val="1" />
+
+            <Index val="0" />
+            <Index val="3" />
+            <Index val="7" />
+
+            <Index val="7" />
+            <Index val="4" />
+            <Index val="0" />
+
+            <Index val="7" />
+            <Index val="6" />
+            <Index val="5" />
+            
+            <Index val="5" />
+            <Index val="4" />
+            <Index val="7" />
+            
+            <!-- Top indexes -->
+            <Index val="4" />
+            <Index val="8" />
+            <Index val="9" />
+
+            <Index val="4" />
+            <Index val="9" />
+            <Index val="5" />
+
+            <Index val="9" />
+            <Index val="10" />
+            <Index val="5" />
+
+            <Index val="10" />
+            <Index val="11" />
+            <Index val="5" />
+
+            <Index val="5" />
+            <Index val="11" />
+            <Index val="6" />
+
+            <Index val="11" />
+            <Index val="12" />
+            <Index val="6" />
+
+            <Index val="6" />
+            <Index val="12" />
+            <Index val="13" />
+
+            <Index val="7" />
+            <Index val="6" />
+            <Index val="13" />
+
+            <Index val="14" />
+            <Index val="7" />
+            <Index val="13" />
+
+            <Index val="15" />
+            <Index val="7" />
+            <Index val="14" />
+            
+            <Index val="15" />
+            <Index val="4" />
+            <Index val="7" />
+            
+            <Index val="8" />
+            <Index val="4" />
+            <Index val="15" />
+
+            <Index val="9" />
+            <Index val="8" />
+            <Index val="16" />
+
+            <Index val="17" />
+            <Index val="9" />
+            <Index val="16" />
+            
+            <Index val="10" />
+            <Index val="9" />
+            <Index val="17" />
+
+            <Index val="11" />
+            <Index val="10" />
+            <Index val="17" />
+
+            <Index val="18" />
+            <Index val="11" />
+            <Index val="17" />
+
+            <Index val="12" />
+            <Index val="11" />
+            <Index val="18" />
+
+            <Index val="13" />
+            <Index val="12" />
+            <Index val="18" />
+
+            <Index val="18" />
+            <Index val="19" />
+            <Index val="13" />
+
+            <Index val="19" />
+            <Index val="14" />
+            <Index val="13" />
+
+            <Index val="15" />
+            <Index val="14" />
+            <Index val="19" />
+            
+            <Index val="19" />
+            <Index val="16" />
+            <Index val="15" />
+            
+            <Index val="16" />
+            <Index val="8" />
+            <Index val="15" />
+
+            <Index val="19" />
+            <Index val="18" />
+            <Index val="20" />
+
+            <Index val="18" />
+            <Index val="17" />
+            <Index val="20" />
+
+            <Index val="17" />
+            <Index val="16" />
+            <Index val="20" />
+
+            <Index val="16" />
+            <Index val="19" />
+            <Index val="20" />
+            
+        </IndexInfo>
+    </Feature>
+</Features>
