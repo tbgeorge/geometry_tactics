@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UnitJobs>
+    <UnitJob name="Fighter">
+        <AIBehavior name="Chase" />
+        <AIBehavior name="Melee" />
+        
+        <VertexInfo>
+            <Vertex pos="0.2,0.01,0.2" uv="0.0,0.0" />
+            <Vertex pos="0.2,0.01,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.01,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.01,0.2" uv="0.0,0.0" />
+
+            <Vertex pos="0.2,0.7,0.2" uv="0.0,0.0" />
+            <Vertex pos="0.2,0.7,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.7,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.7,0.2" uv="0.0,0.0" />
+        </VertexInfo>
+        <IndexInfo>
+            <Index val="0" />
+            <Index val="3" />
+            <Index val="2" />
+
+            <Index val="2" />
+            <Index val="1" />
+            <Index val="0" />
+
+            <Index val="4" />
+            <Index val="5" />
+            <Index val="6" />
+
+            <Index val="6" />
+            <Index val="7" />
+            <Index val="4" />
+
+            <Index val="0" />
+            <Index val="1" />
+            <Index val="5" />
+
+            <Index val="5" />
+            <Index val="4" />
+            <Index val="0" />
+
+            <Index val="2" />
+            <Index val="3" />
+            <Index val="7" />
+
+            <Index val="7" />
+            <Index val="6" />
+            <Index val="2" />
+
+            <Index val="1" />
+            <Index val="2" />
+            <Index val="6" />
+
+            <Index val="6" />
+            <Index val="5" />
+            <Index val="1" />
+
+            <Index val="3" />
+            <Index val="0" />
+            <Index val="4" />
+
+            <Index val="4" />
+            <Index val="7" />
+            <Index val="3" />
+        </IndexInfo>
+    </UnitJob>
+    <UnitJob name ="Archer">
+        <AIBehavior name="Chase" maxDistance="4" />
+        <AIBehavior name="Ranged" />
+        <AIBehavior name="Flee" minDistance="4" />'
+
+        <VertexInfo>
+            
+            <Vertex pos="0.1,0.01,0.5" uv="0.0,0.0" />
+            <Vertex pos="0.3,0.01,0.9" uv="0.0,0.0" />
+            <Vertex pos="0.7,0.01,0.9" uv="0.0,0.0" />
+            <Vertex pos="0.9,0.01,0.5" uv="0.0,0.0" />
+            <Vertex pos="0.7,0.01,0.1" uv="0.0,0.0" />
+            <Vertex pos="0.3,0.01,0.1" uv="0.0,0.0" />
+
+            <Vertex pos="0.2,0.8,0.5" uv="0.0,0.0" />
+            <Vertex pos="0.3,0.8,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.7,0.8,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.8,0.5" uv="0.0,0.0" />
+            <Vertex pos="0.7,0.8,0.2" uv="0.0,0.0" />
+            <Vertex pos="0.3,0.8,0.2" uv="0.0,0.0" />
+            
+
+        </VertexInfo>
+        <IndexInfo>
+            <Index val="0" />
+            <Index val="5" />
+            <Index val="1" />
+
+            <Index val="2" />
+            <Index val="4" />
+            <Index val="3" />
+
+            <Index val="1" />
+            <Index val="5" />
+            <Index val="2" />
+
+            <Index val="2" />
+            <Index val="5" />
+            <Index val="4" />
+
+            <Index val="6" />
+            <Index val="7" />
+            <Index val="11" />
+
+            <Index val="8" />
+            <Index val="9" />
+            <Index val="10" />
+
+            <Index val="7" />
+            <Index val="8" />
+            <Index val="11" />
+
+            <Index val="8" />
+            <Index val="10" />
+            <Index val="11" />
+
+            <Index val="0" />
+            <Index val="1" />
+            <Index val="7" />
+
+            <Index val="7" />
+            <Index val="6" />
+            <Index val="0" />
+
+            <Index val="1" />
+            <Index val="2" />
+            <Index val="8" />
+
+            <Index val="8" />
+            <Index val="7" />
+            <Index val="1" />
+
+            <Index val="2" />
+            <Index val="3" />
+            <Index val="9" />
+
+            <Index val="9" />
+            <Index val="8" />
+            <Index val="2" />
+
+            <Index val="3" />
+            <Index val="4" />
+            <Index val="10" />
+
+            <Index val="10" />
+            <Index val="9" />
+            <Index val="3" />
+
+            <Index val="4" />
+            <Index val="5" />
+            <Index val="11" />
+
+            <Index val="11" />
+            <Index val="10" />
+            <Index val="4" />
+
+            <Index val="5" />
+            <Index val="0" />
+            <Index val="6" />
+
+            <Index val="6" />
+            <Index val="11" />
+            <Index val="5" />
+        </IndexInfo>
+    </UnitJob>
+    <UnitJob name="Wizard">
+        <AIBehavior name="Chase" maxDistance="3"/>
+        <AIBehavior name="Ranged" />
+        <AIBehavior name="Heal" />
+        <AIBehavior name="Flee" minDistance ="3" />
+
+        <VertexInfo>
+            <Vertex pos="0.2,0.1,0.2" uv="0.0,0.0" />
+            <Vertex pos="0.2,0.1,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.1,0.8" uv="0.0,0.0" />
+            <Vertex pos="0.8,0.1,0.2" uv="0.0,0.0" />
+            <Vertex pos="0.5,0.9,0.5" uv="0.0,0.0" />
+        </VertexInfo>
+        <IndexInfo>
+            <Index val="0" />
+            <Index val="3" />
+            <Index val="2" />
+            
+            <Index val="2" />
+            <Index val="1" />
+            <Index val="0" />
+            
+            <Index val="1" />
+            <Index val="2" />
+            <Index val="4" />
+            
+            <Index val="2" />
+            <Index val="3" />
+            <Index val="4" />
+            
+            <Index val="3" />
+            <Index val="0" />
+            <Index val="4" />
+            
+            <Index val="0" />
+            <Index val="1" />
+            <Index val="4" />
+        </IndexInfo>       
+    </UnitJob>
+</UnitJobs>
