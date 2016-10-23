@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainMenu.cpp">
+      <Filter>GameCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Actor.cpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Entity.cpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnController.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TurnMenus\MainTurnMenu.cpp">
+      <Filter>GameCode\UI\TurnMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Pathfinder.cpp">
+      <Filter>GameCode\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatManager.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\BaseAIBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\ChaseBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\MeleeAttackBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameOverMenu.cpp">
+      <Filter>GameCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ActorInfoPanel.cpp">
+      <Filter>GameCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TurnMenus\InterruptMenu.cpp">
+      <Filter>GameCode\UI\TurnMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Feature.cpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureFactory.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitJob.cpp">
+      <Filter>GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Projectile.cpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\RangedAttackBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\FleeBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors\HealBehavior.cpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainMenu.hpp">
+      <Filter>GameCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Actor.hpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Entity.hpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnController.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TurnMenus\MainTurnMenu.hpp">
+      <Filter>GameCode\UI\TurnMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Pathfinder.hpp">
+      <Filter>GameCode\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatManager.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\BaseAIBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\ChaseBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\MeleeAttackBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameOverMenu.hpp">
+      <Filter>GameCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ActorInfoPanel.hpp">
+      <Filter>GameCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TurnMenus\InterruptMenu.hpp">
+      <Filter>GameCode\UI\TurnMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Feature.hpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureFactory.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitJob.hpp">
+      <Filter>GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Projectile.hpp">
+      <Filter>GameCode\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\RangedAttackBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\FleeBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors\HealBehavior.hpp">
+      <Filter>GameCode\AI\AI Behaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameCode">
+      <UniqueIdentifier>{f4a11470-e0c5-4953-926a-941bdc450c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d588cd97-b4dd-4a1a-91ee-15bdb13e205b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{fae30f3c-605f-4b9e-a29d-48225b86e1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCode\UI">
+      <UniqueIdentifier>{4219972e-5e8b-4182-9a6d-d1b195ba4f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{a37658ca-dd08-40b4-9e71-53e017f59345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCode\Entities">
+      <UniqueIdentifier>{c58ba600-177b-4c5b-b5d2-a968b4dd7ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCode\UI\TurnMenus">
+      <UniqueIdentifier>{c558f36c-d3a7-426f-ba10-32cc9b1c21d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCode\AI">
+      <UniqueIdentifier>{18d93a49-cae0-4003-9f78-d62a7967a81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCode\AI\AI Behaviors">
+      <UniqueIdentifier>{2904cb43-f0f7-4f29-91cf-19c81a638530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Features">
+      <UniqueIdentifier>{d32013de-8fe6-4b77-8f1c-8c0d25282bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\UnitJobs">
+      <UniqueIdentifier>{fdcfbe63-af4f-4756-bfca-6ad779735a8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Run_Win32\Data\Shaders\basic.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\basic.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\font.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\font.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\devConsole.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\devConsole.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\textured.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\textured.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Run_Win32\Data\Maps\TestMap1.map.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Features\Rocks.feature.xml">
+      <Filter>Data\Features</Filter>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Features\Trees.feature.xml">
+      <Filter>Data\Features</Filter>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\UnitJobs\Jobs.UnitJob.xml">
+      <Filter>Data\UnitJobs</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
