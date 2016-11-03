@@ -3,6 +3,7 @@ Geometry Tactics
 
 Last Updated: 12/14/2015
 
+This project relies on my personal game engine (Putty Engine) found here: https://github.com/tbgeorge/putty_engine
 
 Controls:
 	- A mouse is used to navigate menus and make selections on the map using the left mouse button.
